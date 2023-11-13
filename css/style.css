@@ -1,0 +1,50 @@
+
+.my-container{
+    position: relative;
+}
+
+.img-box{
+    width: 60rem;
+    height: 28rem;
+    margin: 10rem auto;
+    display: none;
+    position: relative;
+}
+
+.image{
+    object-fit: cover;
+    width:100%;
+    height: 100%;
+}
+
+.img-box.active {
+    display: block;
+}
+
+.title{
+    color: white;
+    position: absolute;
+    bottom: 4rem;
+    right:1rem;
+}
+
+.text{
+    color: white;
+    position: absolute;
+    right:1rem;
+    bottom: 1rem;
+}
+
+#upButton{
+    position: absolute;
+    right: 38rem;
+    top:12rem;
+    border-radius: 20px;
+}
+
+#downButton{
+    position: absolute;
+    right: 38rem;
+    bottom:14rem;
+    border-radius: 20px;
+}
